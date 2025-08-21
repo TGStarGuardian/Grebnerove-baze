@@ -1,16 +1,27 @@
-# Grenberove baze na kvantnom računaru
+# Algoritmi za računanje Grebnerovih baza
 
-Ovde će stajati implementacija nekih algoritama za izračunavanje Grebnerove baze korišćenjem klasičnog i kvantnog računarstva.
 
-Da bi ovo moglo da se pokrene, potrebno je instalirati IBM QISKIT. Samo pratite uputstva na [zvaničnom sajtu](https://quantum.cloud.ibm.com/docs/en/guides/install-qiskit). Prethodno, instalirajte virtual environment za Python, jer Ubuntu zahteva da se novi paketi ne instaliraju više globalno, već u virtualnom okruženju.
+# Instalacija i pokretanje
 
-Trenutno stanje ovoga:
-- ne sadrži nijedan algoritam za računanje Grebnerovih baza
-- sadrži nekoliko pokušaja implementacije rešavača za sistem linearnih jednačina
+Da bi ovo sve moglo da se pokrene, potrebno je napraviti virtualno okruženje pomoću komande u terminalu
 
-Redosled kojim treba čitati:
-- VQE
-- QAOA
-- Sistem linearnih jednačina
-- AQC(p) implementacija
-- QAOALinSolver
+$ python3 -m venv "naziv_direktorijuma"
+
+Onda je potrebno pokrenuti to virtualno okruženje pomoću komande
+
+$ source "putanja_do_okruženja"/bin/activate
+
+Zatim instalirajte SymPy i Jupyter Notebook.
+
+$ pip install sympy
+$ pip3 install notebook
+
+Jupyter Notebook se pokreće komandom
+
+$ jupyter notebook
+
+Napomena: Prilikom pokretanja kodova iz ovog repozitorijuma, bitno je da je prethodno uključeno virtualno okruženje!
+
+
+# Trenutno stanje
+- napravljen je fajl sa mini tutorijal iz SymPy funkcija za polinome više promenljivih
