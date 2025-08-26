@@ -26,3 +26,4 @@ Napomena: Prilikom pokretanja kodova iz ovog repozitorijuma, bitno je da je pret
 # Trenutno stanje
 - napravljen je fajl sa mini tutorijal iz SymPy funkcija za polinome više promenljivih
 - implementiran Buhbergerov algoritam
+- implementiran je algoritam F4 za poredak lex
